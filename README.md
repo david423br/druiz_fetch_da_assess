@@ -23,7 +23,7 @@ Open-ended questions: for these, make assumptions and clearly state them when an
 - 3b. At what percent has Fetch grown year over year?
 
 ### Exploration, Observation, Validations, and Assumptions
-All analyzed using Python via Jupyter notebook. Notebook available via Github.
+All analyzed using Python via Jupyter notebook. Notebook available via Github [HERE](https://github.com/david423br/druiz_fetch_da_assess/tree/main/notebook).
 
 ### Data Source
 To answer these questions, I used the following data retrieved from [Fetch Data Analyst Takehome Assessment](https://fetch-hiring.s3.amazonaws.com/data-analyst/da_take_home/da_takehome_instructions.html)
@@ -33,8 +33,8 @@ To answer these questions, I used the following data retrieved from [Fetch Data 
 
 ### Analytical Approach
 #### Minimum Viable Product (MVP)
-- Exporatory analysis via Python using Jupyter Notebook
-- Data analysis via PostgreSQL using PGAdmin to answer provided questions
+- Exporatory analysis via Python using Jupyter Notebook - [Can be viewed HERE](https://github.com/david423br/druiz_fetch_da_assess/tree/main/notebook)
+- Data analysis via PostgreSQL using PGAdmin to answer provided questions - [Can be viewed HERE](https://github.com/david423br/druiz_fetch_da_assess/tree/main/sql_script)
 
 #### Known Issues and Challenges
 The data provided was pretty sound, not much cleaning necessary, but there are a few data rows that were excluded based on the following criteria:
