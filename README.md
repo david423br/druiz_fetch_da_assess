@@ -55,3 +55,7 @@ These observations, exclusions, and assumptions are explained inline in both my 
 - `PostgreSQL` - for analysis of the data necessary to answer provided questions
 
 - `Git` - for version control
+
+### Email Draft
+- Downloadable PDF and Word Doc attached under folder 'email draft' in Github
+- Public Web Version of Email Draft available [HERE](https://docs.google.com/document/d/e/2PACX-1vRfJVK97-sjAKMZSDctA1lolALhLJUYoHbD5mF5T_hpnC-E2W_tnV8wLv-MnQ-yoaBuCoJgw8oIPlo2/pub)
