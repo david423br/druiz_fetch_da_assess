@@ -23,7 +23,7 @@ Open-ended questions: for these, make assumptions and clearly state them when an
 - 3b. At what percent has Fetch grown year over year?
 
 ### Exploration, Observation, Validations, and Assumptions
-All analyzed using Python via Jupyter notebook. Notebook available via Github [HERE](https://github.com/david423br/druiz_fetch_da_assess/tree/main/notebook).
+- All data analyzed using Python via Jupyter notebook. Notebook available via Github [HERE](https://github.com/david423br/druiz_fetch_da_assess/tree/main/notebook).
 
 ### Data Source
 To answer these questions, I used the following data retrieved from [Fetch Data Analyst Takehome Assessment](https://fetch-hiring.s3.amazonaws.com/data-analyst/da_take_home/da_takehome_instructions.html)
@@ -40,11 +40,17 @@ To answer these questions, I used the following data retrieved from [Fetch Data 
 The data provided was pretty sound, not much cleaning necessary, but there are a few data rows that were excluded based on the following criteria:
 - FINAL_SALE column in 'transaction' dataset included empty cells
 - FINAL_QUANTITY column in 'transaction' dataset included the non-numeric word 'zero'
+- PURCHASE_DATE column in 'transaction' dataset does not include HH:MM:SS timestamp data, setting PURCHASE_DATE to DATE datatype does not conflict with all other date specific data being set to TIMESTAMP with TIME ZONE datatype
 
 These observations, exclusions, and assumptions are explained inline in both my Python exploratory analysis, and my SQL data analysis.
 
+#### Data Visualizations
+- All data visualizations created using Python via Jupyter notebook and MATPLOTLIB. Notebook available via Github [HERE](https://github.com/david423br/druiz_fetch_da_assess/tree/main/notebook).
+
 ### Tools Used
 - `Python/Pandas` - for exploration of the data
+
+- `Python/MATPLOTLIB` - for visualization of the data
 
 - `PostgreSQL` - for analysis of the data necessary to answer provided questions
 

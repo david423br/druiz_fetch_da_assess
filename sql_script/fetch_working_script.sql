@@ -1,4 +1,4 @@
--- ## Data exploration and assessment completed in Python, you can find the exploratory notebook in Github HERE -> 
+-- ## Data exploration and assessment completed in Python, you can find the exploratory notebook in Github HERE -> https://github.com/david423br/druiz_fetch_da_assess/tree/main/notebook
 
 -- ## Created 'products' table
 
@@ -115,5 +115,5 @@ WHERE brand IS NOT NULL
 	AND final_quantity != 'zero'
 	AND final_sale != ' '
 GROUP BY brand
-ORDER BY sum_total_sale DESC
+ORDER BY sum_total_quantity DESC
 LIMIT 1;
